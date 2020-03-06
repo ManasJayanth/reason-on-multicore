@@ -1,0 +1,20 @@
+{
+  "esy": {
+    "buildsInSource": true,
+    "build": [
+      "ocamlopt -pp 'refmt --print binary' -o #{self.target_dir}/foo -impl #{self.root}/foo.re"
+    ],
+    "install": "cp foo #{self.bin}"
+  },
+
+  "resolutions": {
+    "ocaml": "esy-ocaml/ocaml-multicore#e5f67911",
+    "@opam/dune": "1.9.1",
+    "@opam/ocamlbuild": "0.14.0"
+  },
+
+  "dependencies": {
+    "ocaml": "*",
+    "@esy-ocaml/reason": "3.5.2"
+  }
+}
