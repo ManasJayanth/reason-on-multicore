@@ -1,7 +1,8 @@
 * Setup
 
 #+BEGIN_SRC bash
-  esy --opam-repository /path/to/prometheansacrifice/multicore-opam --opam-override-repository=/path/to/prometheansacrifice/esy-opam-override-multicore
+  esy --opam-repository /path/to/prometheansacrifice/multicore-opam \
+    --opam-override-repository /path/to/prometheansacrifice/esy-opam-override-multicore
 #+END_SRC
 
  - [[https://github.com/prometheansacrifice/multicore-opam][Multicore opam]]
