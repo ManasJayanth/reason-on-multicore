@@ -1,22 +1,19 @@
 {
   "name": "multicore-reason",
   "esy": {
-    "buildsInSource": true,
-    "buildx": [
-      "# ocamlopt -pp 'refmt --print binary' -o #{self.target_dir}/foo -impl #{self.root}/foo.re"
-    ],
     "build": "dune build -p #{self.name}"
   },
-
-  "resolutions": {
-    "@opam/menhir": "20190924",
-    "ocaml": "esy-ocaml/ocaml-multicore#cf70acfa52fda1aacfaef3c1aaa41b544adb4b6f"
+  "scripts": {
+    "start": "esy x App"
   },
-
   "dependencies": {
     "ocaml": "*",
     "@opam/dune": "*",
     "@opam/domainslib": "*",
     "@esy-ocaml/reason": "facebook/reason:reason.json"
+  },
+  "resolutions": {
+    "@opam/menhir": "20190924",
+    "ocaml": "esy-ocaml/ocaml-multicore#cf70acfa52fda1aacfaef3c1aaa41b544adb4b6f"
   }
 }
