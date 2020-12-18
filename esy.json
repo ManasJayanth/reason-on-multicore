@@ -16,6 +16,7 @@
   "dependencies": {
     "ocaml": "*",
     "@opam/dune": "*",
+    "@opam/domainslib": "*",
     "@esy-ocaml/reason": "facebook/reason:reason.json"
   }
 }

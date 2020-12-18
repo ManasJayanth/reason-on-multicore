@@ -1,3 +1,4 @@
 (executable
  (name App)
+ (libraries domainslib)
  (public_name App))
