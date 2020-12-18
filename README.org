@@ -1,9 +1,16 @@
 * Setup
+  
+  Uses the =no-effect-syntax= branch of the multicore compiler.
 
 #+BEGIN_SRC bash
-  esy --opam-repository /path/to/prometheansacrifice/multicore-opam \
-    --opam-override-repository /path/to/prometheansacrifice/esy-opam-override-multicore
+  esy --opam-repository-remote https://github.com/ManasJayanth/multicore-opam \
+    --opam-override-repository-remote https://github.com/ManasJayanth/multicore-esy-opam-overrides 
 #+END_SRC
 
- - [[https://github.com/prometheansacrifice/multicore-opam][Multicore opam]]
- - [[https://github.com/prometheansacrifice/esy-opam-override][Esy Opam overrides]]
+ - [[https://github.com/ManasJayanth/multicore-opam][Multicore opam]]
+ - [[https://github.com/ManasJayanth/multicore-opam-esy-opam-overrides ][Esy Opam overrides]]
+
+
+** Interesting reading
+
+   [[https://sudha247.github.io/2020/10/01/lwt-multicore/][Lwt for multicore]]
