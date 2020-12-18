@@ -1,5 +1,5 @@
 {
-  "checksum": "846298c1db95fa307243750b123f2d0b",
+  "checksum": "c99d387a19f8f244f446ea00853d6877",
   "root": "multicore-reason-experiment@link-dev:./esy.json",
   "node": {
     "ocaml@github:esy-ocaml/ocaml-multicore#cf70acfa52fda1aacfaef3c1aaa41b544adb4b6f@d41d8cd9": {
@@ -26,6 +26,7 @@
       "overrides": [],
       "dependencies": [
         "ocaml@github:esy-ocaml/ocaml-multicore#cf70acfa52fda1aacfaef3c1aaa41b544adb4b6f@d41d8cd9",
+        "@opam/dune@opam:1.9.1@90646137",
         "@esy-ocaml/reason@github:facebook/reason:reason.json#7bcfbc38c0eee785b0fdc4b6003ddf62799f084f@d41d8cd9"
       ],
       "devDependencies": []

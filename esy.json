@@ -1,10 +1,11 @@
 {
+  "name": "multicore-reason",
   "esy": {
     "buildsInSource": true,
-    "build": [
-      "ocamlopt -pp 'refmt --print binary' -o #{self.target_dir}/foo -impl #{self.root}/foo.re"
+    "buildx": [
+      "# ocamlopt -pp 'refmt --print binary' -o #{self.target_dir}/foo -impl #{self.root}/foo.re"
     ],
-    "install": "cp foo #{self.bin}"
+    "build": "dune build -p #{self.name}"
   },
 
   "resolutions": {
@@ -14,6 +15,7 @@
 
   "dependencies": {
     "ocaml": "*",
+    "@opam/dune": "*",
     "@esy-ocaml/reason": "facebook/reason:reason.json"
   }
 }

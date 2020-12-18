@@ -1,0 +1,3 @@
+(executable
+ (name App)
+ (public_name App))
