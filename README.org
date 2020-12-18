@@ -9,3 +9,8 @@
 
  - [[https://github.com/ManasJayanth/multicore-opam][Multicore opam]]
  - [[https://github.com/ManasJayanth/multicore-opam-esy-opam-overrides ][Esy Opam overrides]]
+
+
+** Interesting reading
+
+   [[https://sudha247.github.io/2020/10/01/lwt-multicore/][Lwt for multicore]]
