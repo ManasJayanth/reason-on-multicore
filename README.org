@@ -1,4 +1,8 @@
-* Setup
+* Reason on multicore OCaml
+
+  This repo demonstrates Reason on multicore OCaml compiler!
+
+** Setup
   
   Uses the =no-effect-syntax= branch of the multicore compiler.
 
