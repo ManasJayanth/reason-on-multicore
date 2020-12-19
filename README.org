@@ -17,5 +17,5 @@
 
 ** Interesting reading
 
-   [[https://sudha247.github.io/2020/10/01/lwt-multicore/][Lwt for multicore]]
-   [[https://github.com/ocaml-multicore/ocaml-multicore/wiki/Concurrency-and-parallelism-design-notes#how-many-domains-should-run-on-a-host][Concurrency and Parallelism design notes]]
+   1. [[https://sudha247.github.io/2020/10/01/lwt-multicore/][Lwt for multicore]]
+   2. [[https://github.com/ocaml-multicore/ocaml-multicore/wiki/Concurrency-and-parallelism-design-notes#how-many-domains-should-run-on-a-host][Concurrency and Parallelism design notes]]
