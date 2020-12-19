@@ -1,5 +1,5 @@
 {
-  "name": "multicore-reason",
+  "name": "reason-on-multicore",
   "esy": {
     "build": "dune build -p #{self.name}"
   },
@@ -10,9 +10,11 @@
     "ocaml": "*",
     "@opam/dune": "*",
     "@opam/domainslib": "*",
+    "@opam/lwt": "5.3.0",
     "@esy-ocaml/reason": "facebook/reason:reason.json"
   },
   "resolutions": {
+    "@opam/ppx_tools": "link:./vendor/ppx_tools/ppx_tools.opam",
     "@opam/menhir": "20190924",
     "ocaml": "esy-ocaml/ocaml-multicore#cf70acfa52fda1aacfaef3c1aaa41b544adb4b6f"
   }

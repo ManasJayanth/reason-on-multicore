@@ -1,4 +1,5 @@
-(executable
- (name App)
- (libraries domainslib)
- (public_name App))
+(executables
+ (names App Task)
+ (libraries domainslib lwt lwt.unix)
+ (public_names App Task))
+
